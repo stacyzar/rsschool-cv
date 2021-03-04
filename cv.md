@@ -38,3 +38,7 @@ function mygcd(x,y){
   return x;
 }
 ```
+## Languages
+***
+* English **B1**
+* German **A1**
