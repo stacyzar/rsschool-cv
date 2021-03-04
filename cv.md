@@ -1,16 +1,12 @@
 # Zarubina Anastasiya
-***
 Located in **Taskent, Uzbekistan**
 ## Contacts
-***
-**E-mail:** [web.soverena@gmail.com](web.soverena@gmail.com)
-**Phone:** +998890 947-90-46
-**Telegram:** @Soverena
+* **E-mail:** [web.soverena@gmail.com](web.soverena@gmail.com)
+* **Phone:** +998890 947-90-46
+* **Telegram:** @Soverena
 ## Summary
-***
 I work as a frontend developer for a small company. I design and develop websites.
 ## Skills
-***
 * Photoshop
 * Figma
 * HTML5
@@ -19,11 +15,9 @@ I work as a frontend developer for a small company. I design and develop website
 * WordPress
 * SEO
 ## Education
-***
 * Bachelor of Management, Moscow Institute of Technology. Faculty of Management.
 * Completed a frontend developer course at PROWEB in Tashkent.
 ## Code Examples
-***
 ```
 function mygcd(x,y){
   if ((typeof x !== 'number') || (typeof y !== 'number')) 
@@ -39,6 +33,5 @@ function mygcd(x,y){
 }
 ```
 ## Languages
-***
 * English **B1**
 * German **A1**
