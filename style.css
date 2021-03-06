@@ -3,13 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     color: #000;
-    background-color: #5f666c;
+    background-color: #FCF3FC;
     font-size: 15px;
     letter-spacing: 0.3px;
     font-family: 'Questrial', sans-serif;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 .container {
@@ -17,9 +26,117 @@ body{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
 }
 
-.header {
-    background-color: #ced7df;
+.main__block {
+    display: flex;
+    width: 100%;
+}
+
+.main__block li {
+    list-style-position: inside;
+    margin-top: 3%;
+}
+
+.cv__avatar {
+    display: block;
+    margin: 15% auto;
+    width:70%;
+    border-radius: 100%;
+}
+
+.aside__content {
+    width: 33%;
+    color: #fff;
+    background-color: #412040;
+}
+
+.aside__heading {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+.aside__content li {
+    list-style-type: none;
+    margin-bottom: 3%;
+}
+
+.aside__icon {
+    display: inline-block;
+    width: 6%;
+    margin-right: 5%;
+}
+
+.aside__block {
+    margin-bottom: 15%;
+}
+
+.aside__heading {
+    margin-left: 15%;
+    padding-bottom: 5%;
+    font-size: 1.5em;
+}
+
+.aside__skills li {
+    padding-top: 3%;
+}
+.star__skill {
+    margin-top: 2%;
+    width: 8%;
+}
+.main__content {
+    background-color: #fff;
+    width: 67%;
+}
+
+.personal {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+h1 {
+    margin-bottom: 4%;
+    font-size: 3em;
+}
+
+.cv__section {
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.main__heading {
+    padding-bottom: 3%;
+    font-size: 1.5em;
+    color:#412040;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.education__heading {
+    margin-bottom: 3%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.first__education {
+    margin-bottom: 5%;
+}
+.first__education p {
+    margin-bottom: 2%;
+    font-style: italic;
+}
+.first__education span {
+    color: #412040;
+    font-weight: bold;
+}
+
+.ex {
+    background-color: #FCF3FC;
+}
+
+.lang__skills li {
+    font-size: 1.2em;
 }
