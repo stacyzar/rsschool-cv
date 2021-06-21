@@ -87,6 +87,10 @@ ul {
     font-size: 1.1em;
 }
 
+.small__content a:hover{
+    color: #9b5899;
+}
+
 .aside__skills li {
     padding-top: 2%;
 }
@@ -150,6 +154,21 @@ p {
 
 .lang__skills li {
     font-size: 1.2em;
+}
+
+.projects__list>li>p{
+    font-size: 1.1em;
+    padding-top: 6px;
+    font-style: italic;
+}
+.projects__list>li>a{
+    text-decoration: none;
+    color: #412040;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.projects__list>li>a:hover{
+    color: #9b5899;
 }
 
 .footer {
