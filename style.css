@@ -85,6 +85,7 @@ ul {
     text-decoration: none;
     color: #FCF3FC;
     font-size: 1.1em;
+    transition:  0.3s ease;
 }
 
 .small__content a:hover{
@@ -166,6 +167,7 @@ p {
     color: #412040;
     font-weight: 900;
     font-size: 1.2em;
+    transition: 0.3s ease;
 }
 .projects__list>li>a:hover{
     color: #9b5899;
@@ -195,6 +197,7 @@ p {
     text-decoration: none;
     color: #FCF3FC;
     font-size: 1.5em;
+    transition: 0.3s ease;
 }
 
 .github__link:hover {
