@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 body{
     color: #000;
     background-color: #FCF3FC;
@@ -67,20 +67,35 @@ ul {
 }
 
 .aside__block {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .aside__heading {
-    margin-left: 15%;
+    margin-left: 10%;
     padding-bottom: 5%;
     font-size: 1.5em;
 }
 
+.small__content {
+    display: flex;
+    text-align: center;
+}
+
+.small__content a {
+    text-decoration: none;
+    color: #FCF3FC;
+    font-size: 1.1em;
+}
+
+.small__content a:hover{
+    color: #9b5899;
+}
+
 .aside__skills li {
-    padding-top: 3%;
+    padding-top: 2%;
 }
 .star__skill {
-    margin-top: 2%;
+    margin-top: 1%;
     width: 8%;
 }
 .main__content {
@@ -89,9 +104,9 @@ ul {
 }
 
 .personal {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 h1 {
@@ -140,3 +155,65 @@ p {
 .lang__skills li {
     font-size: 1.2em;
 }
+
+.projects__list>li>p{
+    font-size: 1.1em;
+    padding-top: 6px;
+    font-style: italic;
+}
+.projects__list>li>a{
+    text-decoration: none;
+    color: #412040;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.projects__list>li>a:hover{
+    color: #9b5899;
+}
+
+.footer {
+    background-color: #28182A;
+}
+.footer__link {
+    display: flex;
+    padding-left: 4%;
+    padding-right: 7%;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url(img/rs_school_js.svg) center no-repeat;
+    background-size:  contain;
+}
+
+.github__link {
+    text-decoration: none;
+    color: #FCF3FC;
+    font-size: 1.5em;
+}
+
+.github__link:hover {
+    color: #dfd3df;
+}
+
+.github__link h5 {
+    display: block;
+    font-weight: bold;
+}
+
+.year {
+    margin-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.year h5 {
+    color: #dfd3df;
+    font-size: 1.1em;
+}
+
