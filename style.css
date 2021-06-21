@@ -67,7 +67,7 @@ ul {
 }
 
 .aside__block {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .aside__heading {
@@ -88,10 +88,10 @@ ul {
 }
 
 .aside__skills li {
-    padding-top: 3%;
+    padding-top: 2%;
 }
 .star__skill {
-    margin-top: 2%;
+    margin-top: 1%;
     width: 8%;
 }
 .main__content {
@@ -100,9 +100,9 @@ ul {
 }
 
 .personal {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 h1 {
@@ -197,3 +197,4 @@ p {
     color: #dfd3df;
     font-size: 1.1em;
 }
+
